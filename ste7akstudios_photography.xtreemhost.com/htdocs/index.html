@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ste7ak_Studios Photography</title>
+
+<SCRIPT LANGUAGE="JavaScript" type="text/javascript">
+
+  <!--
+
+  if(document.images) {
+    pics = new Array();
+    pics[01] = new Image();
+    pics[01].src = "homecontent.jpg";
+    pics[02] = new Image();
+    pics[02].src = "homeup.jpg";
+    pics[03] = new Image();
+    pics[03].src = "homedown.jpg";
+    pics[04] = new Image();
+    pics[04].src = "homecontent.jpg";
+	pics[05] = new Image();
+	pics[05].src = "aboutup.jpg";
+	pics[06] = new Image();
+	pics[06].src = "aboutdown.jpg";
+	pics[07] = new Image();
+	pics[07].src = "aboutcontent.jpg";
+	pics[08] = new Image();
+	pics[08].src = "portfolioup.jpg";
+	pics[09] = new Image();
+	pics[09].src = "portfoliodown.jpg";
+	pics[10] = new Image();
+	pics[10].src = "portfoliocontent.jpg";
+  }
+    function changer2(from,to,from1,to1) {
+    if(document.images) {
+    document.images[from].src = pics[to].src;
+    document.images[from1].src = pics[to1].src;
+    }
+  }
+
+function change_color1(){
+document.bgColor="#000000";}
+
+function change_color2(){
+document.bgColor="#4e4e4e"}
+
+function change_color3(){
+document.bgColor="#797979"}
+
+function change_color4(){
+document.bgColor="#999999"}
+
+function change_color5(){
+document.bgColor="#bbbaba"}
+
+function alert_box(){
+alert ("There's no place like 127.0.01")}
+
+function show_prompt()
+{
+var name=prompt("Please enter your name","Your Name");
+if (name!=null && name!="")
+  {
+  alert ("Hello " + name + "! How are you today?");
+  }
+}
+
+//-->
+</script>
+
+<script type="text/javascript" src="js/prototype.js"></script>
+<script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script><script type="text/javascript" src="js/effects.js"></script><script type="text/javascript" src="js/builder.js"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
+
+<style type="text/css">
+
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(images/nextlabel.gif) right 15% no-repeat; }
+
+#imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }
+
+h4 {color: #ffffff;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;}
+</style>
+</head>
+
+<body bgcolor="#000000" >
+
+
+<table border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#000000">
+    <tr>
+        <td><img name="header" src="header.jpg" width="950" height="200" border="0" /></td>
+	</tr>
+</table>
+
+<table border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#000000">
+	<tr>
+      <td>
+        <table border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td><a href="javascript:alert_box()" onMouseOver="changer2('img1',3,'holder',4);" onMouseOut="changer2('img1',2);"><img name="img1" id="img1" src="homeup.jpg" border="0" /></a></td>
+            <td><a href="javascript:;" onMouseOver="changer2('img2',6,'holder',7);" onMouseOut="changer2('img2',5);"onclick="show_prompt()" value="Show a prompt box"><img name="img2" id="img2" src="aboutup.jpg" border="0" /></a></td>
+            <td><a href="lbpics/image1.jpg" onMouseOver="changer2('img3',9,'holder',10);" onMouseOut="changer2('img3',8);" rel="lightbox[set1]"><img name="img3" id="img3" src="portfolioup.jpg" border="0" /></a>
+            	<a href="lbpics/image2.jpg" rel="lightbox[set1]"></a>
+                <a href="lbpics/image3.jpg" rel="lightbox[set1]"></a>
+                <a href="lbpics/image4.jpg" rel="lightbox[set1]"></a>
+                <a href="lbpics/image5.jpg" rel="lightbox[set1]"></a>
+                <a href="lbpics/image6.jpg" rel="lightbox[set1]"></a>
+                <a href="lbpics/image7.jpg" rel="lightbox[set1]"></a>
+                <a href="lbpics/image8.jpg" rel="lightbox[set1]"></a>
+                <a href="lbpics/image9.jpg" rel="lightbox[set1]"></a>
+            </td>
+            <td><a href="#" onMouseOver="change_color1()"><img name="color1" src="color1.jpg" border="0" /></a></td>
+            <td><a href="#" onMouseOver="change_color2()"><img name="color2" src="color2.jpg" border="0" /></a></td>
+            <td><a href="#" onMouseOver="change_color3()"><img name="color3" src="color3.jpg" border="0" /></a></td>
+            <td><a href="#" onMouseOver="change_color4()"><img name="color4" src="color4.jpg" border="0" /></a></td>
+            <td><a href="#" onMouseOver="change_color5()"><img name="color5" src="color5.jpg" border="0" /></a></td>
+       	  </tr> 
+        </table>
+      </td>
+    </tr>
+	<tr>
+    	<td><img name="holder" id="holder" src="homecontent.jpg" alt="holder" border="0" /></td>
+	</tr>
+    <tr>
+    	<td><img name="footer" src="footer.jpg" /></td>
+	</tr>
+    <tr>
+    	<td><h4 align="center">It is now
+<script type="text/javascript">
+<!--
+var currentTime = new Date()
+var month = currentTime.getMonth() + 1
+var day = currentTime.getDate()
+var year = currentTime.getFullYear()
+document.write(month + "/" + day + "/" + year)
+//-->
+</script>
+
+<script type="text/javascript">
+<!--
+var currentTime = new Date()
+var hours = currentTime.getHours()
+var minutes = currentTime.getMinutes()
+if (minutes < 10){
+minutes = "0" + minutes
+}
+document.write(hours + ":" + minutes + " ")
+if(hours > 11){
+document.write("PM")
+} else {
+document.write("AM")
+}
+//-->
+</script>
+</h4>
+		</td>
+    </tr>
+</table>
+</body>
+</html>

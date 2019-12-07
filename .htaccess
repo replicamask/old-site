@@ -1,0 +1,16 @@
+ErrorDocument 503 http://xtreemhost.com/error/503.shtml
+ErrorDocument 502 http://xtreemhost.com/error/502.shtml
+ErrorDocument 505 http://xtreemhost.com/error/505.shtml
+#ErrorDocument 401 http://xtreemhost.com/error/401.shtml
+ErrorDocument 500 http://xtreemhost.com/error/500.shtml
+ErrorDocument 403 http://xtreemhost.com/error/403.shtml
+ErrorDocument 400 http://xtreemhost.com/error/400.shtml
+ErrorDocument 408 http://xtreemhost.com/error/408.shtml
+ErrorDocument 501 http://xtreemhost.com/error/501.shtml
+ErrorDocument 302 http://xtreemhost.com/error/302.shtml
+ErrorDocument 405 http://xtreemhost.com/error/405.shtml
+ErrorDocument 415 http://xtreemhost.com/error/415.shtml
+ErrorDocument 404 http://xtreemhost.com/error/404.shtml
+ErrorDocument 504 http://xtreemhost.com/error/504.shtml
+
+php_value display_errors on
